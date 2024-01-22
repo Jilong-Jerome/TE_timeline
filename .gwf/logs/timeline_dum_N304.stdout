@@ -1,0 +1,15 @@
+jobinfo 29788939
+setting root information of the node
+[1] "Largest shortest distance: 0"
+# A tibble: 6 × 13
+  node_name       node_id species_vector Shortest_Distance_to_Term…¹ Interval_ID
+  <chr>             <int> <I<list>>                            <dbl>       <dbl>
+1 InternalNode 10      10 <dbl [6]>                                0         100
+2 InternalNode 11      11 <dbl [6]>                                0         100
+3 InternalNode 12      12 <dbl [6]>                                0         100
+4 InternalNode 13      13 <dbl [6]>                                0         100
+5 InternalNode 14      14 <dbl [6]>                                0         100
+6 InternalNode 9        9 <dbl [6]>                                0         100
+# ℹ abbreviated name: ¹​Shortest_Distance_to_Terminal
+# ℹ 8 more variables: Interval_Start <dbl>, Interval_End <dbl>, dum <dbl>,
+#   ten <dbl>, sar <dbl>, bic <dbl>, mim <dbl>, lin <dbl>

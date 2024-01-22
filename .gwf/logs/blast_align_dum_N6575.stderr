@@ -1,0 +1,86 @@
+nthread = 18
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 36 (18 threads)   
+makedirectionlist (nuc) Version 7.520
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+18 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+36 x 1274 - 1063 d
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: -1 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 36 (by thread   0)    10 / 36 (by thread  10)    20 / 36 (by thread  15)    30 / 36 (by thread  11) tbfast-pair (nuc) Version 7.520
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+18 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 36   10 / 36   20 / 36   30 / 36
+done.
+
+Progressive alignment ... 
+STEP     1 /35 (thread    0) STEP     3 /35 (thread    2) STEP     4 /35 (thread    3) STEP     6 /35 (thread    2) STEP     5 /35 (thread    4) STEP     8 /35 (thread    0) STEP     2 /35 (thread    1) STEP     9 /35 (thread    2) STEP     7 /35 (thread    3) STEP    10 /35 (thread    0) STEP    12 /35 (thread    1) STEP    13 /35 (thread    2) STEP    11 /35 (thread    4) STEP    14 /35 (thread    1) STEP    19 /35 (thread    1) STEP    15 /35 (thread    3) STEP    20 /35 (thread    1) 
+Reallocating (by thread 0) ..done. *alloclen = 3549
+STEP    16 /35 (thread    0) STEP    17 /35 (thread    2) STEP    18 /35 (thread    4) STEP    21 /35 (thread    3) STEP    22 /35 (thread    1) STEP    27 /35 (thread    1) STEP    23 /35 (thread    0) STEP    28 /35 (thread    1) STEP    24 /35 (thread    2) STEP    30 /35 (thread    1) STEP    25 /35 (thread    4) STEP    31 /35 (thread    2) STEP    33 /35 (thread    2) STEP    26 /35 (thread    3) STEP    34 /35 (thread    4) STEP    29 /35 (thread    0) STEP    32 /35 (thread    1) STEP    35 /35 (thread    2) 
+done.
+tbfast (nuc) Version 7.520
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+5 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 36   10 / 36   20 / 36   30 / 36
+Segment   1/  1    1-1303
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  identical.   STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  identical.   STEP 001-008-0  identical.   STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  identical.   STEP 001-011-0  identical.   STEP 001-011-1  identical.   STEP 001-012-0  identical.   STEP 001-012-1  identical.   STEP 001-013-0  identical.   STEP 001-013-1  identical.   STEP 001-014-0  identical.   STEP 001-014-1  identical.   STEP 001-015-0  identical.   STEP 001-015-1  identical.   STEP 001-016-0  identical.   STEP 001-016-1  identical.   STEP 001-017-0  identical.   STEP 001-017-1  identical.   STEP 001-018-0  identical.   STEP 001-018-1  identical.   STEP 001-019-0  identical.   STEP 001-019-1  identical.   STEP 001-020-0  accepted.STEP 001-020-1  identical.   STEP 001-021-0  identical.   STEP 001-021-1  identical.   STEP 001-022-0  identical.   STEP 001-022-1  identical.   STEP 001-023-0  identical.   STEP 001-023-1  identical.   STEP 001-024-0  identical.   STEP 001-024-1  identical.   STEP 001-025-0  identical.   STEP 001-025-1  identical.   STEP 001-026-0  identical.   STEP 001-026-1  identical.   STEP 001-027-0  accepted.STEP 001-027-1  identical.   STEP 001-028-0  identical.   STEP 001-028-1  identical.   STEP 001-029-0  identical.   STEP 001-029-1  identical.   STEP 001-030-0  identical.   STEP 001-030-1  identical.   STEP 001-031-0  identical.   STEP 001-031-1  identical.   STEP 001-032-0  identical.   STEP 001-032-1  identical.   STEP 001-033-0  identical.   STEP 001-033-1  identical.   STEP 001-034-0  accepted.STEP 001-034-1  accepted.STEP 001-035-1  accepted.STEP 002-035-1  identical.   STEP 002-034-0  accepted.STEP 002-034-1  rejected.STEP 002-033-0  identical.   STEP 002-033-1  identical.   STEP 002-032-0  identical.   STEP 002-032-1  identical.   STEP 002-031-0  identical.   STEP 002-031-1  identical.   STEP 002-030-0  identical.   STEP 002-030-1  identical.   STEP 002-029-0  identical.   STEP 002-029-1  identical.   STEP 002-028-0  identical.   STEP 002-028-1  identical.   STEP 002-027-0  identical.   STEP 002-027-1  identical.   STEP 002-026-0  identical.   STEP 002-026-1  identical.   STEP 002-025-0  identical.   STEP 002-025-1  identical.   STEP 002-024-0  identical.   STEP 002-024-1  identical.   STEP 002-023-0  identical.   STEP 002-023-1  identical.   STEP 002-022-0  identical.   STEP 002-022-1  identical.   STEP 002-021-0  identical.   STEP 002-021-1  identical.   STEP 002-020-0  identical.   STEP 002-020-1  identical.   STEP 002-019-0  identical.   STEP 002-019-1  identical.   STEP 002-018-0  identical.   STEP 002-018-1  identical.   STEP 002-017-0  identical.   STEP 002-017-1  identical.   STEP 002-016-0  identical.   STEP 002-016-1  identical.   STEP 002-015-0  identical.   STEP 002-015-1  identical.   STEP 002-014-0  identical.   STEP 002-014-1  identical.   STEP 002-013-0  identical.   STEP 002-013-1  identical.   STEP 002-012-0  identical.   STEP 002-012-1  identical.   STEP 002-011-0  identical.   STEP 002-011-1  identical.   STEP 002-010-0  identical.   STEP 002-010-1  identical.   STEP 002-009-0  identical.   STEP 002-009-1  identical.   STEP 002-008-0  identical.   STEP 002-008-1  identical.   STEP 002-007-0  identical.   STEP 002-007-1  identical.   STEP 002-006-0  identical.   STEP 002-006-1  identical.   STEP 002-005-0  identical.   STEP 002-005-1  identical.   STEP 002-004-0  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.520
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

@@ -1,0 +1,13 @@
+jobinfo 26928698
+blast sv fasta files
+
+
+Building a new DB, current time: 11/22/2023 14:54:50
+New DB name:   /faststorage/project/spider2/social_spiders_2020/people/jilong/chapter2_te/step/phylo/blast/stegodyphus.fa
+New DB title:  stegodyphus.fa
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 99 sequences in 230.389 seconds.
+
+

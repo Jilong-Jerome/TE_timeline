@@ -1,0 +1,3 @@
+Error in nj(dist_matrix) : 
+  cannot build an NJ tree with less than 3 observations
+Execution halted

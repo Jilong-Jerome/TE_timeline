@@ -1,0 +1,76 @@
+nthread = 18
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   
+
+Step 2/2
+ 1 / 41 (18 threads)   
+makedirectionlist (nuc) Version 7.520
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+18 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+41 x 47917 - 1366 d
+nthread = 18
+nthreadpair = 18
+nthreadtb = 5
+ppenalty_ex = 0
+stacksize: -1 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 41 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 41   10 / 41   20 / 41   30 / 41
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 40 (thread    0) fSTEP     5 / 40 (thread    3) fSTEP     7 / 40 (thread    0) fSTEP     2 / 40 (thread    2) fSTEP     8 / 40 (thread    0) fSTEP     9 / 40 (thread    0) fSTEP    10 / 40 (thread    0) fSTEP    11 / 40 (thread    0) fSTEP    12 / 40 (thread    0) fSTEP    13 / 40 (thread    0) fSTEP    14 / 40 (thread    0) fSTEP    15 / 40 (thread    0) fSTEP    16 / 40 (thread    0) fSTEP    17 / 40 (thread    0) fSTEP    18 / 40 (thread    0) fSTEP    19 / 40 (thread    0) fSTEP    20 / 40 (thread    0) fSTEP    21 / 40 (thread    0) fSTEP    23 / 40 (thread    2) fSTEP     3 / 40 (thread    1) fSTEP    24 / 40 (thread    2) fSTEP     4 / 40 (thread    4) fSTEP    25 / 40 (thread    1) fSTEP    26 / 40 (thread    2) f
+len1=47917, len2=24177, Switching to the memsave mode
+STEP     6 / 40 (thread    3) fmDP 00001 / 00004 DP 00002 / 00004 DP 00003 / 00004 DP 00004 / 00004 STEP    22 / 40 (thread    0) fmDP 00001 / 00007 DP 00002 / 00007 DP 00003 / 00007 DP 00004 / 00007 DP 00005 / 00007 DP 00006 / 00007 DP 00007 / 00007 STEP    27 / 40 (thread    1) fmDP 00001 / 00001 STEP    28 / 40 (thread    2) fmDP 00001 / 00001 STEP    29 / 40 (thread    4) fmDP 00001 / 00001 STEP    30 / 40 (thread    3) fmDP 00001 / 00001 STEP    31 / 40 (thread    0) fmDP 00001 / 00001 STEP    32 / 40 (thread    1) fmDP 00001 / 00001 STEP    33 / 40 (thread    2) fmDP 00001 / 00001 STEP    34 / 40 (thread    4) fmDP 00001 / 00001 STEP    35 / 40 (thread    3) fmDP 00001 / 00001 STEP    36 / 40 (thread    0) fmDP 00001 / 00001 STEP    37 / 40 (thread    1) fmDP 00001 / 00001 STEP    38 / 40 (thread    2) fmDP 00001 / 00001 STEP    39 / 40 (thread    4) fmDP 00001 / 00001 STEP    40 / 40 (thread    3) fmDP 00001 / 00001 
+done.
+
+Making a distance matrix from msa.. 
+    0 / 41 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 41   10 / 41   20 / 41   30 / 41
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 40 (thread    0) fSTEP     4 / 40 (thread    3) fSTEP     6 / 40 (thread    3) fSTEP     7 / 40 (thread    3) fSTEP     8 / 40 (thread    3) fSTEP    10 / 40 (thread    0) fSTEP     2 / 40 (thread    1) fSTEP    11 / 40 (thread    0) fSTEP    12 / 40 (thread    0) fSTEP    13 / 40 (thread    0) fSTEP    14 / 40 (thread    0) fSTEP     3 / 40 (thread    2) fSTEP    16 / 40 (thread    0) fSTEP    15 / 40 (thread    1) fSTEP    17 / 40 (thread    1) fSTEP    18 / 40 (thread    0) fSTEP    19 / 40 (thread    1) fSTEP    21 / 40 (thread    1) fSTEP    23 / 40 (thread    2) fSTEP     5 / 40 (thread    4) f
+len1=47917, len2=24177, Switching to the memsave mode
+STEP     9 / 40 (thread    3) fmDP 00001 / 00004 DP 00002 / 00004 DP 00003 / 00004 DP 00004 / 00004 STEP    20 / 40 (thread    0) fmDP 00001 / 00007 DP 00002 / 00007 DP 00003 / 00007 DP 00004 / 00007 DP 00005 / 00007 DP 00006 / 00007 DP 00007 / 00007 STEP    22 / 40 (thread    1) fmDP 00001 / 00003 DP 00002 / 00003 DP 00003 / 00003 STEP    24 / 40 (thread    2) fmDP 00001 / 00001 STEP    25 / 40 (thread    4) fmDP 00001 / 00001 STEP    26 / 40 (thread    3) fmDP 00001 / 00001 STEP    27 / 40 (thread    0) fmDP 00001 / 00001 STEP    28 / 40 (thread    1) fmDP 00001 / 00001 STEP    29 / 40 (thread    2) fmDP 00001 / 00001 STEP    30 / 40 (thread    4) fmDP 00001 / 00001 STEP    31 / 40 (thread    3) fmDP 00001 / 00001 STEP    32 / 40 (thread    0) fmDP 00001 / 00001 STEP    33 / 40 (thread    1) fmDP 00001 / 00001 STEP    34 / 40 (thread    2) fmDP 00001 / 00001 STEP    35 / 40 (thread    4) fmDP 00001 / 00001 STEP    36 / 40 (thread    3) fmDP 00001 / 00001 STEP    37 / 40 (thread    0) fmDP 00001 / 00001 STEP    38 / 40 (thread    1) fmDP 00001 / 00001 STEP    39 / 40 (thread    2) fmDP 00001 / 00001 STEP    40 / 40 (thread    4) fmDP 00001 / 00001 
+done.
+
+disttbfast (nuc) Version 7.520
+alg=M, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+5 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
